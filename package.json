@@ -1,0 +1,42 @@
+{
+  "name": "sponsica-chats",
+  "version": "1.0.0",
+  "description": "Real-time chat server with WebSocket support",
+  "main": "chatserver.ts",
+  "scripts": {
+    "start": "ts-node chatserver.ts",
+    "dev": "nodemon chatserver.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "prisma": "^6.13.0",
+    "socket.io": "^4.7.4",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.10.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "chat",
+    "websocket",
+    "real-time",
+    "express",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "MIT"
+}
